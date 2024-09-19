@@ -111,7 +111,7 @@ form{
     position: relative;
 }
 
-input[type="text"]{
+#search{
     width: 90%;
     height: 45px;
     border-radius: 10px;
@@ -178,6 +178,12 @@ input[type="text"]{
     text-overflow: ellipsis;
 }
 
+.filter-btn.active{
+    background: var(--ciano);
+    color: var(--branco);
+    border: none;
+}
+
 .row{
     flex-wrap: wrap;
     flex-direction: row ;
@@ -234,6 +240,10 @@ input[type="text"]{
 
 .price{
     font-size: 20px;
+}
+
+.gelo{
+    background: var(--gelo) !important;
 }
 
 @media (min-width:992px){
